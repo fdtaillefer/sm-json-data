@@ -787,6 +787,22 @@
                   "requires": [ "Morph" ]
                 }
               ]
+            },
+            {
+              "id": 13,
+              "strats": [
+                {
+                  "name": "Big Pink Right-Side X-Ray Climb",
+                  "notable": true,
+                  "requires": [
+                    "canLeftFacingDoorXRayClimb",
+                    { "resetRoom": {
+                      "nodes": [8],
+                      "mustStayPut": true
+                    }}
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -1387,7 +1403,24 @@
         },
         {
           "from": 2,
-          "to": []
+          "to": [
+            {
+              "id": 1,
+              "strats": [
+                {
+                  "name": "Pink Brinstar Power Bombs X-Ray Climb",
+                  "notable": true,
+                  "requires": [
+                    "canLeftFacingDoorXRayClimb",
+                    { "resetRoom": {
+                      "nodes": [2],
+                      "mustStayPut": true
+                    }}
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "from": 3,
